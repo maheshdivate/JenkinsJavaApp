@@ -1,8 +1,8 @@
 class Ex02 {
     public static void main(String[] args) {
-        Helper.print("Apple123");
+        System.out.print("Apple123");
         for(int i =0; i < args.length;i++)
-            Helper.print(args[i]); 
+           System.out.print(args[i]); 
     }
 }
 
